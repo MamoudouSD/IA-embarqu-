@@ -53,3 +53,10 @@ Ce dépôt contient l'implémentation d'un **système de reconnaissance de geste
 1. Compilez le fichier `main.cpp` avec la commande suivante :
    ```bash
    g++ -std=c++20 -pthread -o main main.cpp `pkg-config --cflags --libs opencv4`
+
+---
+
+## Résultat
+![resultat](https://github.com/user-attachments/assets/cd7649a0-691d-4e7a-909f-c1a9e94ac8cc)
+
+
