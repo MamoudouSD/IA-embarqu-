@@ -177,7 +177,7 @@ int main() {
     usleep(1000000);
 
     std::thread sequencer_thread([](){
-        set_realtime_priority(99, 3);
+        set_realtime_priority(99, 1);
         sequencer_script();
     });
 
